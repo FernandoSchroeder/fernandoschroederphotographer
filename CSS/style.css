@@ -3,8 +3,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+h1,
+ul,
+p {
   margin: 0px;
+}
+ul {
   padding: 0px;
   list-style: none;
 }
@@ -14,6 +18,11 @@ a {
 }
 .header-bg {
   background-color: #ff8200;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header {
@@ -83,4 +92,60 @@ a {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+.introducao-bg {
+  background: #121212;
+}
+
+.introducao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 4px 0px 4px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quemsou-bg {
+  gap: 20px;
+  align-items: center;
+  background: #121212;
+}
+
+.quemsou {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quemsou-conteudo {
+  align-self: end;
+  padding-bottom: 80px;
+}
+
+.quemsou h1 {
+  padding: 20px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+.quemsou h1 span {
+  color: #ff6700;
+}
+
+.quemsou p {
+  padding: 20px;
+  color: #b3b3b3;
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 1.5;
 }
