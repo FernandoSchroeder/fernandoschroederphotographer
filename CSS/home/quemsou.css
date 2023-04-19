@@ -1,8 +1,7 @@
 .quemsou-bg {
   gap: 20px;
   align-items: center;
-  background: #121212;
-  box-shadow: inset 0 -120px white;
+  background: var(--cor-11);
 }
 
 .quemsou {
@@ -23,30 +22,21 @@
 
 .quemsou h1 {
   padding: 20px;
-  color: #ffffff;
   padding-bottom: 16px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "Poppins";
-  font-weight: 600;
 }
 
 .quemsou img {
   height: 100%;
   object-fit: cover;
 }
+
 .quemsou h1 span {
-  color: #ff6700;
+  color: var(--cor-p1);
 }
 
 .quemsou p {
   padding: 20px;
-  color: #b3b3b3;
   margin-bottom: 32px;
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
