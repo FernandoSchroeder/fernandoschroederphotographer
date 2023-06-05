@@ -16,3 +16,26 @@ ul {
 a {
   text-decoration: none;
 }
+
+/*Titulo Interno*/
+.titulo-bg {
+  padding: 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--cor-11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
