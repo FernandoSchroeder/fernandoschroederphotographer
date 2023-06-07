@@ -32,3 +32,12 @@
   outline: none;
   border-color: var(--cor-p1);
 }
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}
