@@ -1,0 +1,70 @@
+.pacotes-bg {
+  background: var(--cor-11);
+}
+
+.pacotes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pacotes-imagem {
+  display: grid;
+}
+
+.pacotes-imagem img {
+  grid-area: 1/1;
+}
+
+.pacotes-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 20px;
+  background: var(--cor-12);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px 0 0 4px;
+}
+
+.pacotes-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.pacotes-conteudo h2,
+.pacotes-conteudo p {
+  grid-column: 1/-1;
+}
+
+.pacotes h2 {
+  margin-bottom: 20px;
+}
+
+.pacotes h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
+.pacotes p {
+  margin-bottom: 8px;
+}
+
+.pacotes a {
+  place-self: end;
+}
+
+.pacotes li {
+  display: flex;
+  align-items: center;
+}
+
+.pacotes ul {
+  display: grid;
+  gap: 16px;
+}
